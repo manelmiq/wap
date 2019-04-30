@@ -9,12 +9,37 @@ body {
 
 }
 
-span{
-    font-size: 22px;
-}
+
 
 .mood-images{
     color: grey;
     height:250px;
 }
+
+a {text-decoration: none}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.yellow{
+    color:yellow;
+}
+
+.movie-list *{
+    list-style: none;
+}
+
+
+
+.intro:first-letter{
+    font-size:2em;
+    color:black;
+}
+
+
+.class_reverse{
+
+}
+
 
