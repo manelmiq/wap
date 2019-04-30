@@ -1,0 +1,20 @@
+body {
+    background-color: #22aaff;
+    font-size: 16px;
+    border: 30px;
+    color: darkslategrey;
+    margin-left:100px;
+    margin-right:100px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+span{
+    font-size: 22px;
+}
+
+.mood-images{
+    color: grey;
+    height:250px;
+}
+
