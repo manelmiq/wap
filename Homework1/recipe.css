@@ -1,4 +1,6 @@
 
+
+
 h2, h3 {
     color: #A4A400;
     background-color: #F0F0F0;
@@ -36,6 +38,7 @@ h2, h3 {
 }
 
 body {
+    background-image: url("silverware.jpg");
     margin-right: 100px;
     margin-left: 100px;
 }
