@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bcf377a-3299-4913-a8af-d3bab8f6ff5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework1/pie.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework1/pie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework1/recipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework1/recipe.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework1/pie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1754">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="46">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -52,8 +53,8 @@
         <option value="$PROJECT_DIR$/Lab1/styleme.css" />
         <option value="$PROJECT_DIR$/Lab1/aboutme.html" />
         <option value="$PROJECT_DIR$/Homework1/recipe.ts" />
-        <option value="$PROJECT_DIR$/Homework1/recipe.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Homework1/recipe.css" />
         <option value="$PROJECT_DIR$/Homework1/pie.html" />
       </list>
     </option>
@@ -138,7 +139,7 @@
       <workItem from="1556641892080" duration="1384000" />
       <workItem from="1556649019985" duration="4164000" />
       <workItem from="1556656524731" duration="10336000" />
-      <workItem from="1556676300637" duration="1233000" />
+      <workItem from="1556676300637" duration="5927000" />
     </task>
     <task id="LOCAL-00001" summary="First Lab">
       <created>1556566262208</created>
@@ -210,15 +211,28 @@
       <option name="project" value="LOCAL" />
       <updated>1556662476107</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finish lab1">
+      <created>1556678104269</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556678104269</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fix the links">
+      <created>1556679841921</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556679841921</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20835000" />
+    <option name="totallyTimeSpent" value="25529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1920" height="1117" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13177083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -233,7 +247,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30747128" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3294271" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -272,7 +286,8 @@
     <MESSAGE value="Lab2" />
     <MESSAGE value="First Lab 1" />
     <MESSAGE value="Finish lab1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish lab1" />
+    <MESSAGE value="Fix the links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the links" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab0/index.html">
@@ -308,13 +323,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework1/pie.jpg" />
-    <entry file="file://$PROJECT_DIR$/Homework1/recipe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -322,10 +330,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Homework1/recipe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Homework1/pie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1754">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
