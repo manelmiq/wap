@@ -45,16 +45,37 @@ body {
     border-radius: 15px;
     height: 1500px;
     width: 800px;
+    overflow: hidden;
 
 }
+
+.topBanner{
+    width: auto;
+    height: 50px;
+}
+.comment{
+    width: 550px;
+}
+
 .rightCorner{
     width: 250px;
     float: right;
     border-top-right-radius: 10px;
 }
 
-dl{
-    margin-top:0;
+dl dt {
+    margin:0px !important;
+    padding: 10pt;
+}
+
+dt{
+    font-weight: bold;
+}
+
+
+
+dd ul{
+    list-style: none;
 }
 
 {
@@ -71,7 +92,7 @@ dl{
 
 #colLeft {
     float: left;
-    height: auto;
+    height: 83px;
     font-family: sans-serif;
 }
 
@@ -80,7 +101,7 @@ dl{
     background-image: url("rbg.png");
     width: 452px;
     height: 83px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     float: left;
 }
 
@@ -88,22 +109,71 @@ dl{
     margin-top:15px;
     font-size: 48pt;
     color: red;
+    font-weight: bold;
+}
+
+.leftCorner{
+    width: 550px;
+    float: left;
 }
 
 .comments_sections{
-
-
+    width: 47%;
+    float: left;
+    height: 1300px;
 }
 
-.quote-box{
+.rightCorner-bottom{
+    background-color: #A2B964;
+    margin-top: -10px !important;
+    height: 1050px;
+    margin: 0px;
+}
+
+
+.endFolder{
     float: left;
-    overflow: hidden;
+    width: 800px;
+    height: auto;
+    text-align: center;
+    background-color: #A2B964;
+}
+
+.review-box p:nth-child(2) {
+
+    /*font-style: italic;*/
+}
+
+
+
+
+.review-box p:first-child {
+    border: 2px solid gray;
+    border-radius: 10px;
     background-color: #E8DC9B;
+    width: auto;
+    padding: 10px;
     font-weight:bold;
-    border: 2px solid black;
-    border-radius: 4px;
-    width: 25%;
+}
 
 
 
+.review-box{
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.review-box img{
+    margin-left: 10px;
+}
+
+.links{
+    /*float: right;*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: .5;
 }
