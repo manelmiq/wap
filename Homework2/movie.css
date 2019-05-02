@@ -96,7 +96,6 @@ dd ul{
     background-image: url("rbg.png");
     width: 452px;
     height: 83px;
-    /*font-weight: bold;*/
     float: left;
 }
 
@@ -132,11 +131,6 @@ dd ul{
     height: auto;
     text-align: center;
     background-color: #A2B964;
-}
-
-.review-box p:nth-child(2) {
-
-    /*font-style: italic;*/
 }
 
 
