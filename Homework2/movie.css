@@ -88,6 +88,22 @@ dl{
     margin-top:15px;
     font-size: 48pt;
     color: red;
+}
+
+.comments_sections{
+
+
+}
+
+.quote-box{
+    float: left;
+    overflow: hidden;
+    background-color: #E8DC9B;
+    font-weight:bold;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 25%;
+
 
 
 }

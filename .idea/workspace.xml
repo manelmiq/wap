@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bcf377a-3299-4913-a8af-d3bab8f6ff5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework2/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/bannerbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/critic.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/fresh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/movie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/overview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/rbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/rotten.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/rottenbig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/tmnt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/tmnt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/w3c-css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/w3c-html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/w3c-xhtml.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/aboutme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework2/movie.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/movie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework2/tmnt.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/tmnt.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +16,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5382609">
+    <splitter split-orientation="horizontal" split-proportion="0.57916665">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Homework2/tmnt.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-280">
-                  <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+                <state relative-caret-position="344">
+                  <caret line="149" column="58" selection-start-line="149" selection-start-column="58" selection-end-line="149" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -49,8 +35,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Homework2/movie.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="620">
-                  <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+                <state relative-caret-position="611">
+                  <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -62,9 +48,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -81,22 +67,21 @@
       <list>
         <option value="$PROJECT_DIR$/Lab1/index.html" />
         <option value="$PROJECT_DIR$/Lab2/aboutme.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Lab1/styleme.css" />
-        <option value="$PROJECT_DIR$/Homework1/recipe.ts" />
-        <option value="$PROJECT_DIR$/Homework1/recipe.css" />
         <option value="$PROJECT_DIR$/Lab1/aboutme.html" />
+        <option value="$PROJECT_DIR$/Homework1/recipe.ts" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Homework1/recipe.css" />
         <option value="$PROJECT_DIR$/Homework1/pie.html" />
-        <option value="$PROJECT_DIR$/Homework2/tmnt.html" />
         <option value="$PROJECT_DIR$/Homework2/movie.css" />
+        <option value="$PROJECT_DIR$/Homework2/tmnt.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="y" value="27" />
+    <option name="width" value="960" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -126,16 +111,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\986783\PhpstormProjects\wap\Homework2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\986783\PhpstormProjects\wap\Homework2" />
       <recent name="C:\Users\986783\PhpstormProjects\wap\Lab1" />
       <recent name="C:\Users\986783\PhpstormProjects\wap" />
     </key>
@@ -175,9 +156,10 @@
       <workItem from="1556564816266" duration="3718000" />
       <workItem from="1556641892080" duration="1384000" />
       <workItem from="1556649019985" duration="4164000" />
-      <workItem from="1556656524731" duration="10745000" />
-      <workItem from="1556737894360" duration="3774000" />
-      <workItem from="1556742963414" duration="7122000" />
+      <workItem from="1556656524731" duration="10336000" />
+      <workItem from="1556676300637" duration="5927000" />
+      <workItem from="1556763619102" duration="6052000" />
+      <workItem from="1556806863104" duration="1483000" />
     </task>
     <task id="LOCAL-00001" summary="First Lab">
       <created>1556566262208</created>
@@ -249,32 +231,32 @@
       <option name="project" value="LOCAL" />
       <updated>1556662476107</updated>
     </task>
-    <task id="LOCAL-00011" summary="Homework 1">
-      <created>1556667401372</created>
+    <task id="LOCAL-00011" summary="Finish lab1">
+      <created>1556678104269</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1556667401372</updated>
+      <updated>1556678104269</updated>
     </task>
-    <task id="LOCAL-00012" summary="Validator">
-      <created>1556667494708</created>
+    <task id="LOCAL-00012" summary="Fix the links">
+      <created>1556679841921</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1556667494708</updated>
+      <updated>1556679841921</updated>
     </task>
     <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30907000" />
+    <option name="totallyTimeSpent" value="33064000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45833334" visible="true" weight="0.15812592" />
-      <window_info id="Structure" order="1" sideWeight="0.5416667" side_tool="true" weight="0.15812592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13177083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -285,8 +267,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3632653" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3074074" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3294271" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -325,9 +307,8 @@
     <MESSAGE value="Lab2" />
     <MESSAGE value="First Lab 1" />
     <MESSAGE value="Finish lab1" />
-    <MESSAGE value="Homework 1" />
-    <MESSAGE value="Validator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validator" />
+    <MESSAGE value="Fix the links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the links" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab0/index.html">
@@ -344,27 +325,17 @@
     <entry file="file://$PROJECT_DIR$/Lab1/good-mood.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework1/pie.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework1/recipe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab1/styleme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="281">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab1/aboutme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="453">
+          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
           <folding>
             <element signature="n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" />
@@ -372,52 +343,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework1/pie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="115" column="50" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework1/pie.jpg" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="207">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework2/banner.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/Homework1/recipe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework2/bannerbg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework2/fresh.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework2/tmnt.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework2/rotten.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework2/rottenbig.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework2/rbg.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/Homework1/pie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework2/movie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        <state relative-caret-position="611">
+          <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework2/tmnt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="344">
+          <caret line="149" column="58" selection-start-line="149" selection-start-column="58" selection-end-line="149" selection-end-column="58" />
         </state>
       </provider>
     </entry>
