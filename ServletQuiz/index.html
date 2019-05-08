@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Introduction to Servlets Quiz</h1>
+<strong>1. What is the difference between a web server and a web container?</strong>
+
+<p>In Java: Web Container or Servlet Container or Servlet Engine : is used to manage the components like Servlets, JSP.
+    It is a part of the web server.</p>
+
+<p>Web Server or HTTP Server: A server which is capable of handling HTTP requests, sent by a client and respond back
+    with a HTTP response.</p>
+
+<p>Application Server or App Server: can handle all application operations between users and an organization's back end
+    business applications or databases.It is frequently viewed as part of a three-tier application with: Presentation
+    tier, logic tier,Data tier</p>
+<strong>2. What is a servlet?</strong>
+<p>Java Servlets are programs that run on a Web or Application server and act as a middle layer between a request coming from a Web browser or other HTTP client and databases or applications on the HTTP server.
+
+    Using Servlets, you can collect input from users through web page forms, present records from a database or another source, and create web pages dynamically.
+    Java Servlets are Java classes run by a web server that has an interpreter that supports the Java Servlet specification.
+    Servlets can be created using the javax.servlet and javax.servlet.http packages, which are a standard part of the Java's enterprise edition</p>
+<strong>3. How do web servers and web containers interact with servlets?</strong>
+<p>They send http request to the servlets the servlet has the methods doPost and doGet to handles that requests</p>
+<strong>4. Who creates request objects?</strong>
+<p>The client clicks on a link that link has a reference to a URL to a servlet. Then the container chose which servlet it's going to handle that request and create the a request and call the servlet service() method. </p>
+<strong>5. What are the states in the servlet lifecycle?</strong>
+<p>Initialization, Processing and Destroy.</p>
+<strong>6. Who calls init and when?</strong>
+<p>The webcontainer after instantiate and after call the service</p>
+<strong>7. Which of init, service, and doGet should you override?</strong>
+<p>You should overide the doGet method. Because the init method will call one of those methods and you should overide them.</p>
+<strong>8. In what sense are servlets multi-threaded?</strong>
+<p>Because the container runs multiple threads to process multiple request to a single servlet.</p>
+<strong>9. What are the implications of this for servlet instance variables?</strong>
+<p>The servlet create variables shared with all servlet instance which leads these to not thread save variables.</p>
+
+</body>
+</html>
