@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<b>1. Can post requests be bookmarked? What are the problems?</b>
+
+<p>Yes. The problem you will lose the request parameters after the requisition.</p>
+
+<b>2. What is the purpose of request dispatching?</b>
+
+<p>The RequestDispatcher interface provides the facility of dispatching the request to another resource it may be html,
+    servlet or jsp. This interface can also be used to include the content of another resource also. It is one of the
+    way of servlet collaboration.</p>
+
+<b>3. What is the difference between redirect and request dispatch?</b>
+<p>The RequestDispatcher interface allows you to do a server side forward/include whereas sendRedirect() does a client
+    side redirect.
+    SendRedirect() will search the content between the servers. it is slow because it has to intimate the browser by
+    sending the URL of the content. then browser will create a new request for the content within the same server or in
+    another one.
+    RquestDispatcher is for searching the content within the server i think. its the server side process and it is
+    faster compare to the SendRedirect() method. but the thing is that it will not intimate the browser in which server
+    it is searching the required date or content, neither it will not ask the browser to change the URL in URL tab. so
+    it causes little inconvenience to the user.0
+</p>
+<b>4. What is an attribute ?</b>
+<p>An object bound into one of the three servlet API objects
+    • HttpServletRequest
+    • HttpSession
+    • ServletContext</p>
+<b>5. What is the difference between attributes and parameters?</b>
+<p>Parameters are read-only. Attributes are read/write. Attribute can be the whole object and parameters are only
+    string </p>
+
+<b>6. What are dangers of using attributes?</b>
+<p>Shared by every request and every servlet in the application. Can lead to thread safe problems</p>
+
+<b>7. What does it mean to say that http is stateless? Give an example of a stateful protocol.</b>
+<p>Because once the transaction between the server ends the information is lost. </p>
+
+<b>8. Give 5 different methods for maintaining state information (count each attribute scope as one method).</b>
+
+<ol>
+    <li>Request Scope</li>
+    <li>Session Scope</li>
+    <li>Application scope</li>
+    <li>Cookies</li>
+    <li>Hidden forms</li>
+</ol>
+
+<b>9. How long does a session last?</b>
+<p>By default the session last 30 minutes. You can customize the time.</p>
+<b>10. What is a cookie, and how long does a cookie last?</b>
+<p>Cookie is a file that stays on the browser on the client side to important state maintance. usually last 2 to 3 weeks</p>
+<b>11. What is the purpose of URL rewriting?</b>
+<p>You can pass parameters throw the URL and alter the content to the beck-end. The problem is that you open to hacker problems. </p>
+
+<b>12. Why does the request attribute report ‘null’ for the maintaining state demo?</b>
+<p>Because the request is destroyed.</p>
+
+</body>
+</html>
