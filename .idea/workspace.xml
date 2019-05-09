@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bcf377a-3299-4913-a8af-d3bab8f6ff5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JSPQuiz/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServletQuiz/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StateManagmentQuiz/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/tmnt.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/tmnt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StateManagmentQuiz/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="503">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -51,6 +45,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -89,8 +84,8 @@
         <option value="$PROJECT_DIR$/introlab/src/cs472/SimplestServlet.java" />
         <option value="$PROJECT_DIR$/StateManagment/index.html" />
         <option value="$PROJECT_DIR$/SJPQuiz/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/StateManagmentQuiz/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -125,6 +120,32 @@
             <path>
               <item name="wap" type="b2602c69:ProjectViewProjectNode" />
               <item name="wap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="calculatorLab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="introlab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="introlab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="JSPQuiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="ServletQuiz" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,7 +214,7 @@
       <workItem from="1557270220771" duration="73000" />
       <workItem from="1557270367645" duration="61000" />
       <workItem from="1557270487008" duration="8690000" />
-      <workItem from="1557344223553" duration="8860000" />
+      <workItem from="1557344223553" duration="11192000" />
     </task>
     <task id="LOCAL-00001" summary="First Lab">
       <created>1556566262208</created>
@@ -314,17 +335,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556871971152</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="upload some java servlet">
+      <created>1557358173137</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1557358173137</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62480000" />
+    <option name="totallyTimeSpent" value="64812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="960" height="1053" extended-state="4" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27708334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19322917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -391,7 +418,8 @@
     <MESSAGE value="Finish lab1" />
     <MESSAGE value="Fix the links" />
     <MESSAGE value="fix minor issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix minor issues" />
+    <MESSAGE value="upload some java servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload some java servlet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab0/index.html">
@@ -509,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ServletQuiz/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -525,8 +546,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StateManagmentQuiz/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        <state relative-caret-position="251">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="72" />
         </state>
       </provider>
     </entry>
