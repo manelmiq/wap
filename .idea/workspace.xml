@@ -4,9 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/Lab1/aboutme.html" line="54" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bcf377a-3299-4913-a8af-d3bab8f6ff5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/introlab/src/beer/model/BeerExpert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/introlab/src/beer/web/BeerSelect.java" afterDir="false" />
+    <list default="true" id="7bcf377a-3299-4913-a8af-d3bab8f6ff5a" name="Default Changelist" comment="Fix the links">
+      <change afterPath="$PROJECT_DIR$/decorator/decorated.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/decoratemytext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/decoratemytext.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/decoratemytext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +59,63 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Homework2/movie.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2261">
+              <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Homework2/tmnt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/decoratemytext.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="29" column="57" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/introlab/src/beer/web/BeerSelect.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/decorator/decoratemytext.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/decoratemytext.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -66,9 +123,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -125,6 +183,9 @@
         <option value="$PROJECT_DIR$/JSPCustomTag/src/student-example/web/TableServlet.java" />
         <option value="$PROJECT_DIR$/JSPCustomTag/web/table.jsp" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/decorator/decoratemytext.css" />
+        <option value="$PROJECT_DIR$/decorator/decoratemytext.html" />
+        <option value="$PROJECT_DIR$/decorator/decoratemytext.js" />
       </list>
     </option>
   </component>
@@ -137,7 +198,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -151,88 +212,29 @@
             <path>
               <item name="wap" type="b2602c69:ProjectViewProjectNode" />
               <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="introlab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="introlab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="introlab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="beer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="introlab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="beer" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter 3 - Beer Advisor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="introlab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="beer" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter 3 - Beer Advisor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="introlab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="beer" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter 3 - Beer Advisor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="introlab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="beer" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter 3 - Beer Advisor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="introlab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="beer" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
               <item name="JSPCustomTag" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="wap" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\986783\PhpstormProjects\wap" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="wap" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="wap" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="wap" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="decorator" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,17 +245,17 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_202" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/introlab/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/decorator" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\986783\IdeaProjects\wap\decorator" />
       <recent name="$PROJECT_DIR$/introlab/src" />
       <recent name="$PROJECT_DIR$/JSPCustomTag/src" />
       <recent name="$PROJECT_DIR$/JSPCustomTag/web" />
       <recent name="$PROJECT_DIR$/introlab/src/beer" />
-      <recent name="$PROJECT_DIR$/Homework3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -493,12 +495,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85745000" />
+    <option name="totallyTimeSpent" value="92267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1703125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -514,7 +517,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3622449" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.36206895" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3074074" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3294271" />
@@ -629,15 +632,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework2/movie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="129" column="15" lean-forward="true" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
+        <state relative-caret-position="2261">
+          <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework2/tmnt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -687,25 +694,17 @@
     <entry file="file://$PROJECT_DIR$/JSPCustomTag/src/example/web/BeerSelect.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c122b50a-e04e-4a0c-8b91-1c4cd219e1d3/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c122b50a-e04e-4a0c-8b91-1c4cd219e1d3/console.sql" />
     <entry file="das://c122b50a-e04e-4a0c-8b91-1c4cd219e1d3/schema/pomodoro/table/pomodori">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="34a1dd20-27a9-4e73-b44c-e020fc33afbd">
+        <state>
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introlab/src/beer/Chapter 3 - Beer Advisor/etc/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/introlab/src/beer/Chapter 3 - Beer Advisor/etc/web.xml" />
     <entry file="file://$PROJECT_DIR$/JSPCustomTag/out/production/JSPCustomTag/example/web/BeerSelect.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -744,9 +743,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSPCustomTag/src/com/customtag/model/Head.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSPCustomTag/src/com/customtag/model/Head.java" />
     <entry file="file://$PROJECT_DIR$/JSPCustomTag/src/student-example/model/Student.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -767,15 +764,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/introlab/src/beer/web/BeerSelect.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="382">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introlab/src/beer/web/BeerSelect.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2759" column="4" selection-start-line="2759" selection-start-column="4" selection-end-line="2759" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/decoratemytext.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/decoratemytext.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/decoratemytext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
