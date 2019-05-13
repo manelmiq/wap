@@ -21,13 +21,15 @@ public class TableServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Student[] table = new Student[]
+        Student[] students = new Student[]
                 {
-                        new Student("bob", 23),
-                        new Student("jill", 33),
-                        new Student("kim", 18)
+                        new Student("john", 28),
+                        new Student("mary", 27),
+                        new Student("molly", 26),
+                        new Student("holly", 25),
+                        new Student("ana", 18)
                 };
-        request.setAttribute("students", table);
+        request.setAttribute("students", students);
         RequestDispatcher dispatcher = request.getRequestDispatcher("table.jsp");
         dispatcher.forward(request, response);
     }
