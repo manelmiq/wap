@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bcf377a-3299-4913-a8af-d3bab8f6ff5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/introlab/src/beer/model/BeerExpert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/introlab/src/beer/web/BeerSelect.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +14,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pomodoro@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pomodoro@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pomodoro@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pomodoro: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pomodoro@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pomodoro: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="pomodori: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="72" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/introlab/src/beer/web/BeerSelect.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -85,13 +118,19 @@
         <option value="$PROJECT_DIR$/StateManagment/index.html" />
         <option value="$PROJECT_DIR$/SJPQuiz/index.html" />
         <option value="$PROJECT_DIR$/StateManagmentQuiz/index.html" />
+        <option value="$PROJECT_DIR$/JSPQuiz/index.html" />
+        <option value="$PROJECT_DIR$/CustomTagQuiz/index.html" />
+        <option value="$PROJECT_DIR$/JSPCustomTag/src/jsptagsdemo/model/Student.java" />
+        <option value="$PROJECT_DIR$/JSPCustomTag/src/student-example/model/Student.java" />
+        <option value="$PROJECT_DIR$/JSPCustomTag/src/student-example/web/TableServlet.java" />
+        <option value="$PROJECT_DIR$/JSPCustomTag/web/table.jsp" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
-    <option name="width" value="960" />
+    <option name="width" value="1920" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -102,29 +141,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="wap" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\986783\PhpstormProjects\wap" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="wap" type="b2602c69:ProjectViewProjectNode" />
               <item name="wap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="calculatorLab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wap" type="b2602c69:ProjectViewProjectNode" />
@@ -140,12 +162,72 @@
             <path>
               <item name="wap" type="b2602c69:ProjectViewProjectNode" />
               <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="JSPQuiz" type="462c0819:PsiDirectoryNode" />
+              <item name="introlab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="beer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wap" type="b2602c69:ProjectViewProjectNode" />
               <item name="wap" type="462c0819:PsiDirectoryNode" />
-              <item name="ServletQuiz" type="462c0819:PsiDirectoryNode" />
+              <item name="introlab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="beer" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter 3 - Beer Advisor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="introlab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="beer" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter 3 - Beer Advisor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="introlab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="beer" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter 3 - Beer Advisor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="introlab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="beer" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter 3 - Beer Advisor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="introlab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="beer" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap" type="462c0819:PsiDirectoryNode" />
+              <item name="JSPCustomTag" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="wap" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\986783\PhpstormProjects\wap" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -154,20 +236,24 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_202" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/introlab/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/introlab/src" />
+      <recent name="$PROJECT_DIR$/JSPCustomTag/src" />
+      <recent name="$PROJECT_DIR$/JSPCustomTag/web" />
+      <recent name="$PROJECT_DIR$/introlab/src/beer" />
       <recent name="$PROJECT_DIR$/Homework3" />
-      <recent name="C:\Users\986783\PhpstormProjects\wap\Lab1" />
-      <recent name="C:\Users\986783\PhpstormProjects\wap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -215,6 +301,11 @@
       <workItem from="1557270367645" duration="61000" />
       <workItem from="1557270487008" duration="8690000" />
       <workItem from="1557344223553" duration="11192000" />
+      <workItem from="1557369050483" duration="1175000" />
+      <workItem from="1557376355940" duration="3271000" />
+      <workItem from="1557526798006" duration="4537000" />
+      <workItem from="1557687744899" duration="4955000" />
+      <workItem from="1557724163637" duration="5790000" />
     </task>
     <task id="LOCAL-00001" summary="First Lab">
       <created>1556566262208</created>
@@ -342,16 +433,72 @@
       <option name="project" value="LOCAL" />
       <updated>1557358173137</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Custom Tags Homework">
+      <created>1557369176201</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1557369176201</updated>
+    </task>
+    <task id="LOCAL-00020" summary="some some links">
+      <created>1557370486494</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1557370486494</updated>
+    </task>
+    <task id="LOCAL-00021" summary="some some links">
+      <created>1557370819031</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1557370819031</updated>
+    </task>
+    <task id="LOCAL-00022" summary="some some links">
+      <created>1557370936680</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1557370936680</updated>
+    </task>
+    <task id="LOCAL-00023" summary="some some links">
+      <created>1557371069860</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1557371069860</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix the quizes">
+      <created>1557731933875</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1557731933875</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix the quizes">
+      <created>1557732204998</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1557732205001</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix the quizes">
+      <created>1557733542642</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1557733542642</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64812000" />
+    <option name="totallyTimeSpent" value="85745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19322917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1703125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -373,10 +520,11 @@
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3294271" />
       <window_info anchor="bottom" id="Sequence" order="13" />
       <window_info anchor="bottom" id="Statistic" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3296875" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="PlantUML" order="5" />
       <window_info anchor="right" id="Palette" order="6" />
@@ -419,7 +567,10 @@
     <MESSAGE value="Fix the links" />
     <MESSAGE value="fix minor issues" />
     <MESSAGE value="upload some java servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload some java servlet" />
+    <MESSAGE value="Custom Tags Homework" />
+    <MESSAGE value="some some links" />
+    <MESSAGE value="fix the quizes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the quizes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab0/index.html">
@@ -530,33 +681,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSPQuiz/index.html">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSPCustomTag/src/example/web/BeerSelect.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c122b50a-e04e-4a0c-8b91-1c4cd219e1d3/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://c122b50a-e04e-4a0c-8b91-1c4cd219e1d3/schema/pomodoro/table/pomodori">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="34a1dd20-27a9-4e73-b44c-e020fc33afbd">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introlab/src/beer/Chapter 3 - Beer Advisor/etc/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="392">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSPCustomTag/out/production/JSPCustomTag/example/web/BeerSelect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#928#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ServletQuiz/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+        <state relative-caret-position="487">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSPQuiz/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StateManagmentQuiz/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="1428">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomTagQuiz/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="63" column="80" selection-start-line="63" selection-start-column="80" selection-end-line="63" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSPCustomTag/src/com/customtag/model/Head.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSPCustomTag/src/student-example/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSPCustomTag/src/student-example/web/TableServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSPCustomTag/web/table.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="72" />
+        <state relative-caret-position="84">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introlab/src/beer/web/BeerSelect.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

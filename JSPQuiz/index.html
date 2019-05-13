@@ -1,10 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
-<body>
 
+<body>
+<b>1. What is the main value of Java Server Pages?</b>
+<br>
+The main proposal it's separate the view from the business logic.
+<br>
+<b>2. How are JSP pages related to servlets?</b>
+<br>
+The JSP page is a servlet page. But first it's need to be compiled and turn in a servlet.
+Also the JSP respect the life cycle of servlet.
+
+<br>
+<b>3. How are JSP pages related to HTML?</b>
+<br>
+
+Because you can insert java code inside a html using EL element. Later you can put some tags in order to increase the
+power.
+
+<br>
+<b>4. Give an example of a JSP scriptlet and show how it will look in the JSP servlet .
+</b>
+<pre>
+    <b>JSP scriptlet</b>
+    <%
+    String username = request.getParameter("username");
+    if ( username != null && username.length() > 0 ) {
+    %>
+    <%@include file="response.jsp" %>
+    <%
+        }
+    %>
+
+    <b>JSP servlet</b>
+    public class Servlet()
+    {
+    	String username = "John";
+    }
+
+    </pre>
+<b>5. Give an example of a JSP declaration and show how it will look in the JSP servlet.
+</b>
+<br>
+<pre>
+    <b>JSP declaration</b>
+    <%! String name = "John" %>
+
+    <b>JSP servlet</b>
+    public class Example()
+    {
+    	String name = "John"
+    }
+</pre>
+
+<p>6. Give an example of a JSP comment and show how it will look in the JSP servlet.</p>
+<%-- --%> for the JSP
+// or /**/ for multiple lines in servlet.
+
+<p>7. Give an example of a JSP expression and show how it will look in the JSP servlet.
+</p>
+<pre>
+    <b>JSP Expression</b>
+    <%= "Welcome "+request.getParameter("uname") %>
+    <b>JSP Servlet</b>
+    out.print("Welcome "+request.getParameter("uname"));
+</pre>
+
+<b>8. Give an example of a JSP directive and show how it will look in the JSP servlet.</b>
+
+<pre>
+    <b>JSP Directive</b>
+    <%@ page import=”java.util.ArrayList” %>
+    <b>JSL Servlet</b>
+    import java.util.ArrayList;
+    </pre>
+
+<p><b>9. Explain how an EL expression is evaluated.</b></p>
+${variable}
+
+The servlet container will checks on the page scope for that attribute and if find will print that attribute in the page html.
+If not found will check the request scope, session scope and application.
+
+<br>
+<p><b>10. Explain how servlet attributes are involved in EL expressions.</b></p>
+Because the servlet will make the variables inside de EL expressions be a accessible inside the jsp when compiled.
+
+<p><b>11. Explain how servlets and JSPs use request dispatch to interact.</b></p>
+
+The servlet and the JSP interact with each other. The servlet manipulate the data and do the operations and send to the view
+each is the JSP and jsp format the data along the HTML.
+
+
+<br/>
+<br/>
+
+<a href="../index.html">Back home</a>
 </body>
+
 </html>
