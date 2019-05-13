@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<p>1. Rewrite the JSP page in the first demo (forEach) to use scripting instead of the
+    JSTL forEach.</p>
+<pre>
+    <%
+    Student[] students = (Student[])request.getAttribute("students");
+    for (Student student :  students)     {
+        out.print("Name" + student.getName() +" Age "+ student.getAge());
+    }
+    %>
+</pre>
+<p>2. How do custom tags relate to JSTL?</p>
+JSTL stands for JSP Standard Tag Library. JSTL is the standard tag library that provides tags to control the JSP page
+behavior. JSTL tags can be used for iteration and control statements, internationalization, SQL etc.
+<br>
+<a href="https://www.journaldev.com/2090/jstl-tutorial-jstl-tags-example">Here</a>
+<p>3. What is the role of the URI in the TLD and the taglib directive?</p>
+The URI is defined within the taglib defintion file. Without the correct URI the reference cannot be resolved. It is
+like a name or key. Whatever you declare inside your uri must match the taglib-uri.
+<p>4. What is a tag handler class?</p>
+
+
+A custom tag is a user-defined JSP language element. When a JSP page containing a custom tag is translated into a
+servlet, the tag is converted to operations on an object called a
+<b>tag handler</b>. ... JSP tag extensions lets you create new tags that you can insert directly into a JavaServer Page.
+
+<br>
+<a href="https://www.tutorialspoint.com/jsp/jsp_custom_tags.htm">Here</a>
+
+<p>5. What is the role of attribute setters in a tag handler class?</p>
+
+Makes the binds between the tag handler class and the jsp file.
+
+<p>6. What is the role of the doTag() method in a tag handler class? </p>
+
+Unlike classic tag handlers, the SimpleTag interface does not extend Tag. Instead of supporting doStartTag() and doEndTag(), the SimpleTag interface provides a simple doTag() method, which is called once and only once for any given tag invocation. All tag logic, iteration, body evaluations, and so on are performed in this single method. Thus, simple tag handlers have the equivalent power of BodyTag, but with a much simpler life cycle and interface.
+
+<a href="https://docs.oracle.com/cd/E17904_01/web.1111/e13722/handler.htm#TAGLB132">Here</a>
+
+<p>7. What does the operation getJspContext().getOut().write(“Hi Bob”) do when called in a
+    doTag() method?</p>
+
+It will print Hi bob on the tag.
+
+<p>8. What does the operation getJspBody().invoke(null) do when called in a doTag()
+    method?</p>
+
+The container processes the JSP content found in the body of the tag just like any other JSP page content. If the invoke method is passed null as its argument, the resulting output of that JSP content is passed verbatim to the client. Therefore, the doTag method has no way of accessing the tag body output. All it can do is pass it along. We show how to access and modify the output of the tag body content before it's sent to the client in Section 8.1 (Manipulating Tag Body). It's important to stress, however, that it is the output resulting from the execution of the JSP code in the tag body, not the JSP code itself, that is passed to the client.
+
+<a href="http://www.informit.com/articles/article.aspx?p=1161218&seqNum=5"> Here</a>
+
+<br/>
+<br/>
+<a href="../index.html">Home</a>
+
+
+</body>
+
+</html>
