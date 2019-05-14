@@ -1,15 +1,12 @@
-console.log("teste");
-
 
 function biggerDecoration() {
-    document.getElementById("txtArea").style.fontSize = '14pt';
     var size = (document.getElementById("txtArea").style.fontSize);
     size = parseInt(size);
     console.log(size);
     size += 2;
+    console.log(size);
     document.getElementById("txtArea").style.fontSize = size + "pt";
 }
-
 
 function increaseBytime() {
     setInterval(biggerDecoration, 500);

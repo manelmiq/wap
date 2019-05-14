@@ -17,6 +17,10 @@ h1 {
     font-family: "Impact", fantasy;
 }
 
+#txtArea{
+    font-size:14pt;
+}
+
 legend {
     font-family: "Impact", fantasy;
     font-size: 120%;
