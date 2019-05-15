@@ -1,0 +1,40 @@
+
+body {
+    background-color: #CCCCFF;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#title {
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+#txtArea {
+    display: block;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#button_row {
+    display: inline-block;
+    width: 100%;
+    margin: 15px;
+    text-align: center !important;
+}
+
+fieldset button{
+    font-weight: bold;
+}
+
+.button_group {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.button_group fieldset{
+    border:5px solid black;
+}
