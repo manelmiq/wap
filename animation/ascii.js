@@ -1,23 +1,39 @@
-
-
-
-function choseAnimation() {
+function startAnimation() {
     let animation = document.getElementById("animation").value;
     document.getElementById("txtArea").textContent = ANIMATIONS[animation];
-    let anime = ANIMATIONS[animation].split("=====\n");
-
-    console.log(anime[0]);
-    console.log(anime[1]);
-
-    //  setInterval(function () {
-    //     anime.forEach(function (value) {
-    //         console.log(value);
-    //         document.getElementById("txtArea").textContent = value;
-    //     })
-    //
-    // }, 1000);
-
-
-
-
+    document.getElementById("animation").disabled = true;
+    document.getElementById("startButton").disabled = true;
+    document.getElementById("stopButton").disabled = false;
+     setTimeout(function () {
+        playAnimation(animation, 0)
+    }, 250);
 }
+
+
+function stopAnimation(){
+    document.getElementById("animation").disabled = true;
+    document.getElementById("stopButton").disabled = true;
+    document.getElementById("startButton").disabled = false;
+}
+
+let playAnimation = function (animation, cont) {
+    let animationFrames = ANIMATIONS[animation].split("=====\n");
+    document.getElementById("txtArea").textContent = animationFrames[cont];
+    let counter = (document.getElementById("turbo").checked) ? 50 : 250;
+    cont = (cont + 1) %  animationFrames.length;
+    
+    setTimeout(function () {
+        playAnimation(animation, cont)
+    }, counter);
+};
+
+
+function changeFontSize() {
+    document.getElementById("txtArea").style.fontSize = document.getElementById("size").value;
+}
+
+
+
+
+
+
