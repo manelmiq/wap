@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            font-weight: bold;
+        }
+    </style>
+    <script src="timers.js"></script>
+</head>
+<body>
+
+<p>1. What is the difference between the following 2 statements?</p>
+1.1 setTimeout(booyah, 2000);
+<br>
+1.2 setTimeout(booyah(), 2000);
+
+<pre>1.1 Executes instantaneously.
+    1.2 Executes after 2 seconds</pre>
+
+
+<p>2. What do the following 2 alerts display (answer without running the code)?</p>
+<pre>
+        var myfunc = function(a, x) {
+        return a * x;
+        };
+        var x = myfunc(2, 3);
+        var y = myfunc;
+        alert(x);
+        alert(y(2,3));
+
+    the first alert(x) -> 6
+    the second alert(x) -> 6
+</pre>
+<p>3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that
+    says “BOOYAH!”</p>
+<pre>
+setTimeout(booyah1, 2000);
+setTimeout(booyah2(), 2000);
+
+    function booyah1() {
+        alert("BOOYAH1");
+    }
+
+function booyah2() {
+    setTimeout(function () {
+        alert("BOOYAH2");
+    }, 2000);
+}
+
+setTimeout(booyah1, 2000);
+setTimeout(booyah2(), 2000);
+
+    </pre>
+<p>4. What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons
+    for using it)?</p>
+    <pre>
+        Unobtrusive JavaScript is a best practice methodology for attaching JavaScript to the front-end of a website.
+        It’s an ideal to strive toward and something we should bear in mind whenever we’re adding JavaScript to a site.
+It is the separation of behaviour from markup or structure. Just like the CSS gurus of old taught us there
+        should be a separation of layout from markup, there should be a separation of behaviour from markup.
+        That’s HTML for the content and structure of the document, CSS for the layout and style, and Unobtrusive
+        JavaScript for behaviour and interactivity. Simple.
+    </pre>
+
+</body>
+</html>
