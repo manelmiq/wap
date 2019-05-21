@@ -23,6 +23,7 @@ body, button {
 	width: 90px;
 	height: 90px;
 	position: absolute;
+	font-size: 40pt;
 }
 
 /* This class should be applied to a puzzle piece that can be moved. */
