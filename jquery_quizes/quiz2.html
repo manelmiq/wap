@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #pdf_view {
+            width: 1200px;
+            height: 400px;
+            margin: 0 auto;
+        }
+
+
+    </style>
+    <!--    <link rel="stylesheet" href="jquery.js">-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<body>
+<object data="jQueryQuizII.pdf" type="application/pdf" id="pdf_view">
+    <p>It appears you don't have Adobe Reader or PDF support in this web browser. <a href="lorem.pdf">Click here to
+        download the PDF</a>. Or <a href="http://get.adobe.com/reader/" target="_blank">click here to install Adobe
+        Reader</a>.</p>
+    <embed src="jQueryQuizII.pdf" type="application/pdf"/>
+</object>
+
+<div id="answers">
+    <p>Question 1</p>
+    <ol>
+        <li>loren</li>
+        <li>teste 2</li>
+        <li> mum teste</li>
+    </ol>
+    <strong>There is no difference between them. The parameters doesn't interferes on the output.</strong>
+
+</div>
+<script>
+    //code fragment 1
+    $("li").each(function (idx, e) {
+        console.log(idx);
+        console.log(e);
+        $(e).css("color", "yellow");
+    });
+    //code fragment 2
+    $("li").each(function () {
+        $(this).css("color", "yellow");
+    });
+    // //code fragment 3
+    $("li").each(function (idx) {
+        console.log(idx);
+        $(this).css("color", "yellow");
+    });
+
+</script>
+
+<br>
+
+Question 2
+
+
+<div>no ul here </div>
+<div>
+    This does contain a ul.
+    <ul>
+        <li>the first item</li>
+        <li>the second item</li>
+    </ul>
+</div>
+<strong>
+    $("ul li").css("color", "blue");
+</strong>
+
+
+<script>
+    $("ul li").css("color", "blue");
+</script>
+
+<br>
+Question 3
+<br>
+<strong>
+    Answer:
+    <br>
+
+    $("body").append("&lt;div&gt;&lt;h1&gt;JQuery Core&lt;/h1&gt;&lt;/div&gt;");
+</strong>
+
+
+
+</body>
+</html>

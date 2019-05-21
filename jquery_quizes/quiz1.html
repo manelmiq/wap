@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz 1 Jquery</title>
+
+    <style>
+        p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+<p>1. In jQuery terminology, what is the difference between the “jQuery function” and the
+    “jQuery object”?</p>
+
+<pre>
+JQuery function is:
+    Return a collection of matched elements either found in the DOM based on passed argument(s) or created by passing an HTML string.
+    <a href="http://api.jquery.com/jQuery/">Here according to the documentation</a>
+
+JQuery object is:
+    Although DOM elements provide all the functionality one needs to create interactive web pages,
+    they can be a hassle to work with. The jQuery object wraps these elements to smooth out this experience
+    and make common tasks easy. When creating or selecting elements with jQuery, the result will always be wrapped in a new jQuery object.
+    If the situation calls for the native DOM elements, they may be accessed through the .get() method and/or array-style subscripting.
+    <a href="https://learn.jquery.com/using-jquery-core/jquery-object/">Found here</a>
+
+    The difference is that jquery function can return an jquery object.
+</pre>
+<p>
+    2. Write jQuery code to find all h1 elements that are children of a div element and make their bac
+    kground color red. Sample HTML:
+</p>
+
+<pre>
+
+    &lt;body&gt;
+    &lt;h1&gt;abc&lt;/h1&gt;&lt;br&gt;
+    &lt;div&gt;
+        &lt;h1&gt;div-1&lt;/h1&gt;
+        &lt;h1&gt;div-2&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;h1&gt;xyz&lt;/h1&gt;
+    &lt/body&gt;
+</pre>
+
+<strong>
+    Answer: $(div h1).css("background-color", "red);
+</strong>
+
+<p>3. Use a jQuery method to insert the text "YES!" at the end of the &lt;p&gt; element.
+</p>
+<pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;script&gt;
+    $(document).ready(function () {
+        $("p").append(“YES!”);
+    });
+    &lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;p&gt;Is jQuery FUN or what? &lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</pre>
+</body>
+</html>
