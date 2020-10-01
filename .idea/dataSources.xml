@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+  <component name="DataSourceHimangManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="pomodoro@localhost" uuid="c122b50a-e04e-4a0c-8b91-1c4cd219e1d3">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
@@ -10,7 +10,7 @@
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
         <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
+        <property name="characterEncodingHimang" value="utf8" />
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
